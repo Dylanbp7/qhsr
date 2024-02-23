@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Excursiones en San Rafael Mendoza",
+        "description": "Tómate un respiro y descubre la belleza de San Rafael, Mendoza con nuestras emocionantes excursiones. Desde aventuras en la naturaleza hasta experiencias culturales. Explora opciones, conoce los precios y reserva tu próxima aventura en un solo lugar.",
+        "img": "/excursiones-san-rafael-mendoza-precios.jpg",
+        "imgAlt": "Excursiones San Rafael Mendoza Precios",
+        "url": "/excursiones",
+        "ctaUrl": "Mejores excursiones San Rafael"
+    },
+    {
+        "title": "Bodegas y viñedos en San Rafael",
+        "description": "Descubre los secretos del vino en San Rafael. Explora bodegas y viñedos de renombre mundial en una experiencia única. Desde catas exclusivas hasta recorridos entre viñedos. Encuentra tu tour perfecto aquí. ¡Consulta precios y reserva tu experiencia!",
+        "img": "/bodegas-san-rafael-mendoza.png",
+        "imgAlt": "Bodegas en San Rafael Mendoza",
+        "url": "/bodegas",
+        "ctaUrl": "Mejores bodegas en San Rafael"
+    },
+    {
+        "title": "Atracciones populares en San Rafael",
+        "description": "Descubre las atracciones más populares de esta encantadora ciudad y reserva tu experiencia al mejor precio. Desde pintorescos paisajes naturales hasta emocionantes actividades culturales. ¡Explora ahora y asegura tu lugar en las mejores atracciones de San Rafael!",
+        "img": "./atracciones-populares-san-rafael.png",
+        "imgAlt": "Atracciones populares en San Rafael",
+        "url": "/atracciones-populares",
+        "ctaUrl": "Mejores lugares para visitar en San Rafael"
+    }
+]

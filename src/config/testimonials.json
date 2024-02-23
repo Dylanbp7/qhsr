@@ -1,0 +1,32 @@
+[
+    {
+        "person":"Mariela",
+        "title": "Excursión al Cañón del Atuel",
+        "description": "Hermoso lugar, me encantó. Es largo el recorrido pero si pueden hacer alguna actividad como rafting o alguna otra , se los recomiendo!",
+        "img": "/excursiones-al-canon-del-atuel.jpg",
+        "imgAlt": "Excursión al Cañón del Atuel",
+        "url": "",
+        "rating": "4.3",
+        "ratingComment": "Excelente"
+    },
+    {
+        "person":"Mariela",
+        "title": "Excursión al Cañón del Atuel",
+        "description": "Hermoso lugar, me encantó. Es largo el recorrido pero si pueden hacer alguna actividad como rafting o alguna otra , se los recomiendo!",
+        "img": "/excursiones-al-canon-del-atuel.jpg",
+        "imgAlt": "Excursión al Cañón del Atuel",
+        "url": "",
+        "rating": "4.3",
+        "ratingComment": "Excelente"
+    },
+    {
+        "person":"Mariela",
+        "title": "Excursión al Cañón del Atuel",
+        "description": "Hermoso lugar, me encantó. Es largo el recorrido pero si pueden hacer alguna actividad como rafting o alguna otra , se los recomiendo!",
+        "img": "/excursiones-al-canon-del-atuel.jpg",
+        "imgAlt": "Excursión al Cañón del Atuel",
+        "url": "",
+        "rating": "4.3",
+        "ratingComment": "Excelente"
+    }
+]

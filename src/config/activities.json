@@ -1,0 +1,81 @@
+[{
+    "image":"/rafting-valle-grande-san-rafael.jpg",
+    "Altimage":"Rafting Valle Grande San Rafael Mendoza",
+    "rating": "4.2" ,
+    "ratingComment": "Excelente",
+    "title": "Hacer Rafting en Valle Grande" ,
+    "description": "Descubre la belleza natural del imponente río mientras desciendes por sus rápidos.",
+    "price": "15.000",
+    "url":"../../excursiones/rafting-valle-grande",
+    "type": "Excursion",
+    "date": "Hoy",
+    "location": "San Rafael"
+},
+{
+    "image":"/excursion-canon-del-atuel.jpg",
+    "Altimage":"Excursión Cañon del Atuel",
+    "rating": "4.9" ,
+    "ratingComment": "Excelente",
+    "title": "Excursión al Cañón del Atuel" ,
+    "description": "Descubre la belleza natural de esta importante zona montañosa.",
+    "price": "65.500",
+    "url":"../../excursiones/rafting-valle-grande",
+    "type": "Excursion",
+    "date": "Hoy",
+    "location": "San Rafael"
+},
+{
+    "image":"/visitar-laberinto-de-borges.jpg",
+    "Altimage":"Visita Laberinto de Borges",
+    "rating": "4.7" ,
+    "ratingComment": "Excelente",
+    "title": "Visitar el Laberinto de Borges" ,
+    "description": "Descubre la belleza natural del imponente río mientras desciendes por sus rápidos.",
+    "price": "25.000",
+    "url":"../../excursiones/rafting-valle-grande",
+    "type": "Excursion",
+    "date": "Mes que viene",
+    "location": "San Rafael"
+},
+{
+    "image":"/visitar-laberinto-de-borges.jpg",
+    "Altimage":"Visita Laberinto de Borges",
+    "rating": "4.7" ,
+    "ratingComment": "Excelente",
+    "title": "Visitar el Laberinto de Borges" ,
+    "description": "Descubre la belleza natural del imponente río mientras desciendes por sus rápidos.",
+    "price": "25.000",
+    "url":"../../excursiones/rafting-valle-grande",
+    "type": "Excursion",
+    "date": "Mes que viene",
+    "location": "San Rafael"
+},
+{
+    "image":"/visitar-laberinto-de-borges.jpg",
+    "Altimage":"Visita Laberinto de Borges",
+    "rating": "4.7" ,
+    "ratingComment": "Excelente",
+    "title": "Visitar el Laberinto de Borges" ,
+    "description": "Descubre la belleza natural del imponente río mientras desciendes por sus rápidos.",
+    "price": "25.000",
+    "url":"../../excursiones/rafting-valle-grande",
+    "type": "Excursion",
+    "date": "Mes que viene",
+    "location": "San Rafael"
+},
+{
+    "image":"/excursion-al-aconcagua-mendoza.jpg",
+    "Altimage":"Excursión al Aconcagua en Mendoza",
+    "rating": "3.7" ,
+    "ratingComment": "Muy bueno",
+    "title": "Excursión al Aconcagua en Mendoza" ,
+    "description": "Descubre la belleza natural del imponente río mientras desciendes por sus rápidos.",
+    "price": "25.000",
+    "url":"../../excursiones/rafting-valle-grande",
+    "type": "Excursion",
+    "date": "Hoy",
+    "location": "Mendoza"
+}
+]
+
+
