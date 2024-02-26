@@ -4,7 +4,7 @@ import recomendation from "../config/recomendations.json";
 <section class="bg-white dark:bg-gray-900">
     <div class="gap-10 items-center pt-24 px-4 mx-auto max-w-screen-xl xl:gap-16 lg:px-6">
         {recomendation.map((recomendation) => (
-            <div class="inline-flex flex-wrap w-screen-xl mb-24 gap-8">
+            <div class="inline-flex flex-wrap justify-between w-full w-screen-xl mb-24">
                 <img class=" h-auto md:h-96 w-50 rounded-md" src={recomendation.img} alt={recomendation.imgAlt} />
                 <div class="mt-4 flex flex-col max-w-xl justify-center items-start">
                     <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">{recomendation.title}</h2>

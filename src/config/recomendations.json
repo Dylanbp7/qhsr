@@ -20,7 +20,7 @@
         "description": "Descubre las atracciones más populares de esta encantadora ciudad y reserva tu experiencia al mejor precio. Desde pintorescos paisajes naturales hasta emocionantes actividades culturales. ¡Explora ahora y asegura tu lugar en las mejores atracciones de San Rafael!",
         "img": "./atracciones-populares-san-rafael.png",
         "imgAlt": "Atracciones populares en San Rafael",
-        "url": "/atracciones-populares",
+        "url": "/atracciones",
         "ctaUrl": "Mejores lugares para visitar en San Rafael"
     }
 ]

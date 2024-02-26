@@ -1,0 +1,111 @@
+---
+interface Props {
+    opinionImage1: any;
+    opinionPerson1: any;
+    opinionType1: any;
+    opinionDate1: any;
+    opinionTitle1: any;
+    opinionDescription1: any;
+    opinionImage2: any;
+    opinionPerson2: any;
+    opinionType2: any;
+    opinionDate2: any;
+    opinionTitle2: any;
+    opinionDescription2: any;
+    opinionImage3: any;
+    opinionPerson3: any;
+    opinionType3: any;
+    opinionDate3: any;
+    opinionTitle3: any;
+    opinionDescription3: any;
+}
+const { opinionImage1 } = Astro.props;
+const { opinionPerson1 } = Astro.props;
+const { opinionType1 } = Astro.props;
+const { opinionDate1 } = Astro.props;
+const { opinionTitle1 } = Astro.props;
+const { opinionDescription1 } = Astro.props;
+const { opinionImage2 } = Astro.props;
+const { opinionPerson2 } = Astro.props;
+const { opinionType2 } = Astro.props;
+const { opinionDate2 } = Astro.props;
+const { opinionTitle2 } = Astro.props;
+const { opinionDescription2 } = Astro.props;
+const { opinionImage3 } = Astro.props;
+const { opinionPerson3 } = Astro.props;
+const { opinionType3 } = Astro.props;
+const { opinionDate3 } = Astro.props;
+const { opinionTitle3 } = Astro.props;
+const { opinionDescription3 } = Astro.props;
+
+---
+<section class="bg-white dark:bg-gray-900">
+    <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
+        <div class="max-w-screen-md mb-8 lg:mb-16">
+            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Opiniones de la gente</h2>
+        </div>
+        <article class="md:gap-8 py-5 md:grid md:grid-cols-3">
+            <div>
+                <div class="flex mb-6">
+                    <img class="w-10 h-10 rounded-full" src={opinionImage1}>
+                    <div class="ms-4 font-medium dark:text-white">
+                        <p>{opinionPerson1}</p>
+                        <div class="flex items-center text-sm text-gray-500 dark:text-gray-400">{opinionType1}</div>
+                        <footer>
+                            <p class="mb-2 text-sm text-gray-500 dark:text-gray-400">Reseña de {opinionDate1}</p>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+            <div class="col-span-2 mt-6 md:mt-0">
+                <div class="flex items-start mb-5">
+                        <h4 class="text-xl font-bold text-gray-900 dark:text-white">{opinionTitle1}</h4>
+                </div>
+                <p class="mb-5 text-gray-500 dark:text-gray-400">{opinionDescription1}</p>        
+            </div>
+        </article>
+        <article class="md:gap-8 py-5 md:grid md:grid-cols-3">
+            <div>
+                <div class="flex mb-6">
+                    <img class="w-10 h-10 rounded-full" src={opinionImage2}>
+                    <div class="ms-4 font-medium dark:text-white">
+                        <p>{opinionPerson2}</p>
+                        <div class="flex items-center text-sm text-gray-500 dark:text-gray-400">{opinionType2}</div>
+                        <footer>
+                            <p class="mb-2 text-sm text-gray-500 dark:text-gray-400">Reseña de {opinionDate2}</p>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+            <div class="col-span-2 mt-6 md:mt-0">
+                <div class="flex items-start mb-5">
+                        <h4 class="text-xl font-bold text-gray-900 dark:text-white">{opinionTitle2}</h4>
+                </div>
+                <p class="mb-5 text-gray-500 dark:text-gray-400">{opinionDescription2}</p>        
+            </div>
+        </article>
+        <article class="md:gap-8 py-5 md:grid md:grid-cols-3">
+            <div>
+                <div class="flex mb-6">
+                    <img class="w-10 h-10 rounded-full" src={opinionImage3}>
+                    <div class="ms-4 font-medium dark:text-white">
+                        <p>{opinionPerson3}</p>
+                        <div class="flex items-center text-sm text-gray-500 dark:text-gray-400">{opinionType3}</div>
+                        <footer>
+                            <p class="mb-2 text-sm text-gray-500 dark:text-gray-400">Reseña de {opinionDate3}</p>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+            <div class="col-span-2 mt-6 md:mt-0">
+                <div class="flex items-start mb-5">
+                        <h4 class="text-xl font-bold text-gray-900 dark:text-white">{opinionTitle3}</h4>
+                </div>
+                <p class="mb-5 text-gray-500 dark:text-gray-400">{opinionDescription3}</p>        
+            </div>
+        </article>
+    </div>
+</section>
+
+
+

@@ -1,21 +1,21 @@
 [
     {
-        "id": "1",
+        "type": "Bodegas",
         "title": "¿Que hacer 3 días en San Rafael Mendoza?",
         "description": "Podrías conocer el Dique Los Reyunos, Pozo De Las Animas, Embalse Agua de Toro y la Presa El Tigre Rafael."
     },
     {
-        "id": "2",
+        "type": "Bodegas",
         "title": "¿Que no te puedes perder en San Rafael Mendoza?",
         "description": "Podrías conocer el Dique Los Reyunos, Pozo De Las Animas, Embalse Agua de Toro y la Presa El Tigre Rafael."
     },
     {
-        "id": "2",
+        "type": "Excursiones",
         "title": "¿Que no te puedes perder en San Rafael Mendoza?",
         "description": "Podrías conocer el Dique Los Reyunos, Pozo De Las Animas, Embalse Agua de Toro y la Presa El Tigre Rafael."
     },
     {
-        "id": "2",
+        "type": "Atracciones",
         "title": "¿Que no te puedes perder en San Rafael Mendoza?",
         "description": "Podrías conocer el Dique Los Reyunos, Pozo De Las Animas, Embalse Agua de Toro y la Presa El Tigre Rafael."
     }
