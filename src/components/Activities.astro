@@ -2,13 +2,11 @@
 
 interface Props {
   title: string;
-  description: string;
   url: string;
   ctaUrl: string;
 }
 
 const { title } = Astro.props;
-const { description } = Astro.props;
 const { url } = Astro.props;
 const { ctaUrl } = Astro.props;
 
@@ -20,7 +18,7 @@ import ActivityCard from "../components/ActivityCard.astro";
     <div class="pt-8 px-4 mx-auto max-w-screen-xl lg:pt-16 lg:px-6">
         <div class="max-w-screen-lg text-gray-500 sm:text-lg dark:text-gray-400">
             <h2 class="text-3xl md:text-4xl tracking-tight font-bold text-gray-900 dark:text-white">{title}</h2>
-            <p class="mb-4 font-light">{description}</p>
+            <p class="mb-4 font-light"></p>
         </div>
         <div class="grid gap-8 sm:grid-cols-3 lg:grid-cols-4 py-4 md:py-4">
             {AllActivities.map((activity) => (

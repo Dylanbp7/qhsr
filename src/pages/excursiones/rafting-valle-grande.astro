@@ -7,6 +7,7 @@ import FAQ from '../../components/ActivityFAQ.astro';
 import Opinions from '../../components/Opinions.astro'
 import Activities from '../../components/Activities.astro'
 import CTA from '../../components/CTAActivity.astro'
+import WhatsAppBTN from '../../components/WhatsAppBTN.astro'
 
 ---
 
@@ -31,7 +32,9 @@ import CTA from '../../components/CTAActivity.astro'
             activityTitle={activity.title}
             activityLongDescription={activity.longDescription} 
             activityPrice={activity.price}
-            activityUrlBuy={activity.urlBuy}/>  
+            activityUrlBuy={activity.urlBuy}/>
+            <WhatsAppBTN
+            WAurl={activity.urlBuy}/> 
             <Features
             activityDuration={activity.duration}
             activityIncluded={activity.included}
@@ -73,7 +76,7 @@ import CTA from '../../components/CTAActivity.astro'
             />
             <Activities
             title="Otras actividades en San Rafael hoy"
-            description='' url='' ctaUrl=''
+            url='' ctaUrl=''
             />
             </Layout>
             ))}
