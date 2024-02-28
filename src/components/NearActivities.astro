@@ -19,7 +19,7 @@ import ActivityCard from "../components/ActivityCard.astro";
             <p class="mb-4 font-light">{description}</p>
         </div>
         <div class="grid gap-8 sm:grid-cols-3 lg:grid-cols-4 py-4 md:py-4">
-            {AllActivities.filter((activity) => activity.location != "San Rafael").map((activity) => (
+            {AllActivities.filter((activity) => activity.location = "San Rafael").map((activity) => (
                 <ActivityCard 
                 url= {activity.url}
                 image= {activity.image}

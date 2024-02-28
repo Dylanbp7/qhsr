@@ -2,38 +2,32 @@
 interface Props {
     opinionImage1: any;
     opinionPerson1: any;
-    opinionType1: any;
     opinionDate1: any;
     opinionTitle1: any;
     opinionDescription1: any;
     opinionImage2: any;
     opinionPerson2: any;
-    opinionType2: any;
     opinionDate2: any;
     opinionTitle2: any;
     opinionDescription2: any;
     opinionImage3: any;
     opinionPerson3: any;
-    opinionType3: any;
     opinionDate3: any;
     opinionTitle3: any;
     opinionDescription3: any;
 }
 const { opinionImage1 } = Astro.props;
 const { opinionPerson1 } = Astro.props;
-const { opinionType1 } = Astro.props;
 const { opinionDate1 } = Astro.props;
 const { opinionTitle1 } = Astro.props;
 const { opinionDescription1 } = Astro.props;
 const { opinionImage2 } = Astro.props;
 const { opinionPerson2 } = Astro.props;
-const { opinionType2 } = Astro.props;
 const { opinionDate2 } = Astro.props;
 const { opinionTitle2 } = Astro.props;
 const { opinionDescription2 } = Astro.props;
 const { opinionImage3 } = Astro.props;
 const { opinionPerson3 } = Astro.props;
-const { opinionType3 } = Astro.props;
 const { opinionDate3 } = Astro.props;
 const { opinionTitle3 } = Astro.props;
 const { opinionDescription3 } = Astro.props;
@@ -50,7 +44,6 @@ const { opinionDescription3 } = Astro.props;
                     <img class="w-10 h-10 rounded-full" src={opinionImage1}>
                     <div class="ms-4 font-medium dark:text-white">
                         <p>{opinionPerson1}</p>
-                        <div class="flex items-center text-sm text-gray-500 dark:text-gray-400">{opinionType1}</div>
                         <footer>
                             <p class="mb-2 text-sm text-gray-500 dark:text-gray-400">Reseña de {opinionDate1}</p>
                         </footer>
@@ -70,7 +63,6 @@ const { opinionDescription3 } = Astro.props;
                     <img class="w-10 h-10 rounded-full" src={opinionImage2}>
                     <div class="ms-4 font-medium dark:text-white">
                         <p>{opinionPerson2}</p>
-                        <div class="flex items-center text-sm text-gray-500 dark:text-gray-400">{opinionType2}</div>
                         <footer>
                             <p class="mb-2 text-sm text-gray-500 dark:text-gray-400">Reseña de {opinionDate2}</p>
                         </footer>
@@ -90,7 +82,6 @@ const { opinionDescription3 } = Astro.props;
                     <img class="w-10 h-10 rounded-full" src={opinionImage3}>
                     <div class="ms-4 font-medium dark:text-white">
                         <p>{opinionPerson3}</p>
-                        <div class="flex items-center text-sm text-gray-500 dark:text-gray-400">{opinionType3}</div>
                         <footer>
                             <p class="mb-2 text-sm text-gray-500 dark:text-gray-400">Reseña de {opinionDate3}</p>
                         </footer>

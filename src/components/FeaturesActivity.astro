@@ -2,6 +2,7 @@
 interface Props {
     activityDuration: any;
     activityIncluded: any;
+    activityNoIncluded: any;
     activityExpectations: any;
     activityAges: any;
     activitySchedules: any;
@@ -9,6 +10,7 @@ interface Props {
 }
 const { activityDuration } = Astro.props;
 const { activityIncluded } = Astro.props;
+const { activityNoIncluded } = Astro.props;
 const { activityExpectations } = Astro.props;
 const { activityAges } = Astro.props;
 const { activitySchedules } = Astro.props;
@@ -19,12 +21,12 @@ import Feature from './Feature.astro'
     <div class="py-16 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
         <div class="max-w-screen-md mb-8 lg:mb-16">
             <h3 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Detalles de la Actividad</h3>
-            <p class="text-gray-500 sm:text-lg dark:text-gray-400">Encuentra aquí todo lo que concierne a la actividad que realizarás.</p>
+            <p class="text-gray-500 sm:text-lg dark:text-gray-400">{activityExpectations}</p>
         </div>
         <div class="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
                 <Feature order={1} title='¿Cuánto dura?' description={activityDuration}/>
                 <Feature order={2} title='¿Qué incluye?' description={activityIncluded}/>
-                <Feature order={3} title='¿Qué esperar?' description={activityExpectations}/>
+                <Feature order={3} title='¿Qué NO incluye?' description={activityNoIncluded}/>
                 <Feature order={4} title='Edades recomendadas' description={activityAges}/>
                 <Feature order={5} title='Salida y regreso' description={activitySchedules}/>
         </div>
