@@ -1,0 +1,81 @@
+---
+import AllActivities from '../../config/activities.json'
+import Layout from '../../layouts/Layout.astro';
+import HeroActivity from '../../components/HeroActivity.astro'
+import Features from '../../components/FeaturesActivity.astro'
+import FAQ from '../../components/ActivityFAQ.astro';
+import Opinions from '../../components/Opinions.astro'
+import Activities from '../../components/Activities.astro'
+import CTA from '../../components/CTAActivity.astro'
+import WhatsAppBTN from '../../components/WhatsAppBTN.astro'
+
+---
+
+{AllActivities.filter((activity) => activity.id === "4").map((activity) => (
+            <Layout title= {activity.title + " | QHSanRafael"}>
+            <HeroActivity
+            activityImage={activity.image} 
+            activityAltImage={activity.Altimage}
+            activityImage2={activity.image2} 
+            activityAltImage2={activity.Altimage2}
+            activityImage3={activity.image3} 
+            activityAltImage3={activity.Altimage3}
+            activityImage4={activity.image4} 
+            activityAltImage4={activity.Altimage4}
+            activityImage5={activity.image5} 
+            activityAltImage5={activity.Altimage5}
+            activityImage6={activity.image6} 
+            activityAltImage6={activity.Altimage6}
+            activityRating={activity.rating}
+            activityRatingComment={activity.ratingComment}
+            activityUrl={activity.url}
+            activityTitle={activity.title}
+            activityLongDescription={activity.longDescription} 
+            activityPrice={activity.price}
+            activityUrlBuy={activity.urlBuy}/>
+            <WhatsAppBTN
+            WAurl={activity.urlBuy}/> 
+            <Features
+            activityDuration={activity.duration}
+            activityIncluded={activity.included}
+            activityNoIncluded={activity.noIncluded}
+            activityExpectations={activity.expectations}
+            activityAges={activity.ages}
+            activitySchedules={activity.schedules}/>
+            <FAQ
+            faqTitle1={activity.faqTitle1}
+            faqDescription1={activity.faqDescription1}
+            faqTitle2={activity.faqTitle2}
+            faqDescription2={activity.faqDescription2}
+            faqTitle3={activity.faqTitle3}
+            faqDescription3={activity.faqDescription3}
+            faqTitle4={activity.faqTitle4}
+            faqDescription4={activity.faqDescription4}/>
+            <CTA
+            activityName={activity.title}
+            url={activity.urlBuy}
+            />
+            <Opinions 
+            opinionImage1={activity.opinionImage1}
+            opinionPerson1={activity.opinionPerson1}
+            opinionDate1={activity.opinionDate1}
+            opinionTitle1={activity.opinionTitle1}
+            opinionDescription1={activity.opinionDescription1}
+            opinionImage2={activity.opinionImage2}
+            opinionPerson2={activity.opinionPerson2}
+            opinionDate2={activity.opinionDate2}
+            opinionTitle2={activity.opinionTitle2}
+            opinionDescription2={activity.opinionDescription2}
+            opinionImage3={activity.opinionImage3}
+            opinionPerson3={activity.opinionPerson3}
+            opinionDate3={activity.opinionDate3}
+            opinionTitle3={activity.opinionTitle3}
+            opinionDescription3={activity.opinionDescription3}
+            />
+            <Activities
+            title="Otras actividades en San Rafael hoy"
+            url='' ctaUrl=''
+            />
+            </Layout>
+            ))}
+    
