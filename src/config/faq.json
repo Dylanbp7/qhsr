@@ -1,23 +1,23 @@
 [
     {
-        "type": "Bodegas",
+        "type": "Home",
         "title": "¿Que hacer 3 días en San Rafael Mendoza?",
-        "description": "Podrías conocer el Dique Los Reyunos, Pozo De Las Animas, Embalse Agua de Toro y la Presa El Tigre Rafael."
+        "description": "En San Rafael, en tres días, puedes explorar el Cañón del Atuel, relajarte en las termas de Los Reyunos y disfrutar de las bodegas locales. ¡Una experiencia inolvidable llena de aventura y sabores"
     },
     {
-        "type": "Bodegas",
-        "title": "¿Que no te puedes perder en San Rafael Mendoza?",
-        "description": "Podrías conocer el Dique Los Reyunos, Pozo De Las Animas, Embalse Agua de Toro y la Presa El Tigre Rafael."
+        "type": "Home",
+        "title": " Las mejores cosas que hacer gratis en San Rafael",
+        "description": "Descubre San Rafael sin gastar un peso. Disfruta de un día soleado en la Plaza Francia, pasea por el encantador Parque Hipólito Yrigoyen, explora el corazón de la ciudad con una caminata por el centro y descubre la historia en el Paseo Rawson."
     },
     {
-        "type": "Excursiones",
-        "title": "¿Que no te puedes perder en San Rafael Mendoza?",
-        "description": "Podrías conocer el Dique Los Reyunos, Pozo De Las Animas, Embalse Agua de Toro y la Presa El Tigre Rafael."
+        "type": "Home",
+        "title": "Dirección de Turismo de San Rafael, Mendoza",
+        "description": "Encuentra aquí una amplia variedad de actividades relacionadas con el turismo local. Desde emocionantes aventuras al aire libre hasta experiencias culturales únicas, tenemos algo para todos los gustos. Además, ofrecemos una selección de excursiones recomendadas por los propios turistas, para que puedas descubrir los lugares más populares y fascinantes de San Rafael."
     },
     {
-        "type": "Atracciones",
-        "title": "¿Que no te puedes perder en San Rafael Mendoza?",
-        "description": "Podrías conocer el Dique Los Reyunos, Pozo De Las Animas, Embalse Agua de Toro y la Presa El Tigre Rafael."
+        "type": "Home",
+        "title": "Atractivos turísticos de San Rafael, Mendoza",
+        "description": "Sumérgete en la majestuosidad del Valle Grande, donde podrás disfrutar de emocionantes actividades acuáticas y paisajes impresionantes. Relájate en las tranquilas aguas de Los Reyunos, un paraíso natural perfecto para desconectar y recargar energías. Explora las maravillas del embalse El Nihuil, donde la aventura y la belleza se encuentran en cada rincón."
     }
 
 ]
