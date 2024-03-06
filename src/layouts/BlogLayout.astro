@@ -1,0 +1,36 @@
+---
+import Navbar from '../components//Navbar.astro'
+import Footer from '../components/Footer.astro'
+import GoogleTag from '../components/GoogleTagManager.astro'
+
+interface Props {
+	title: string;
+}
+
+const { title } = Astro.props;
+
+---
+<!doctype html>
+<html lang="en">
+	<head>
+		<GoogleTag></GoogleTag>
+		<meta charset="UTF-8" />
+		<meta name="description" content="Astro description" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<meta name="generator" content={Astro.generator} />
+		<title>{title}</title>
+	</head>
+	<body>
+		<!-- Google Tag Manager (noscript) -->
+		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PRDQ9RMQ"
+		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<!-- End Google Tag Manager (noscript) -->
+		<Navbar></Navbar>
+		<slot></slot>
+		<Footer/>
+	<script is:inline src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.0/flowbite.min.js"></script>
+	</body>
+</html>
+
