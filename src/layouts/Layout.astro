@@ -1,8 +1,7 @@
 ---
 import Navbar from '../components//Navbar.astro'
 import Footer from '../components/Footer.astro'
-import GoogleTag from '../components/GoogleTag.astro'
-import GoogleTagManager from '../components/GoogleTagManager.astro'
+
 
 
 
@@ -16,8 +15,6 @@ const { title } = Astro.props;
 <!doctype html>
 <html lang="en">
 	<head>
-		<GoogleTagManager/>
-		<GoogleTag/>
 		<meta charset="UTF-8" />
 		<meta name="description" content="Astro description" />
 		<meta name="viewport" content="width=device-width" />
@@ -25,6 +22,17 @@ const { title } = Astro.props;
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
+		<!-- Google Tag Manager -->
+		<script type="text/partytown">(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-PRDQ9RMQ');
+    </script>
+	<!-- End Google Tag Manager -->
 	</head>
 	<body>
 		<!-- Google Tag Manager (noscript) -->
