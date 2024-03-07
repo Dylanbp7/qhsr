@@ -12,7 +12,7 @@ import WhatsAppBTN from '../../components/WhatsAppBTN.astro'
 ---
 
 {AllActivities.filter((activity) => activity.id === "4").map((activity) => (
-            <Layout title= {activity.title + " | QHSanRafael"}>
+            <Layout title= {activity.title + " | QHSanRafael"}, metadescription={activity.metadescription}>
             <HeroActivity
             activityImage={activity.image} 
             activityAltImage={activity.Altimage}
