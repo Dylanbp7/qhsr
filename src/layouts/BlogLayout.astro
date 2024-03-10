@@ -2,17 +2,21 @@
 import Navbar from '../components//Navbar.astro'
 import Footer from '../components/Footer.astro'
 import GoogleTag from '../components/GoogleTagManager.astro'
+import NearActivities from '../components/NearActivities.astro'
 
-interface Props {
-	title: string;
+
+interface frontmatter {
+	frontmatter: string;
 }
 
-const { title } = Astro.props;
+const { frontmatter } = Astro.props;
+const { title, coverImage, altCoverImage} = frontmatter;
+
 
 ---
 <!doctype html>
-<html lang="en">
-	<head>
+<html lang="es">
+	<head {title}>
 		<GoogleTag></GoogleTag>
 		<meta charset="UTF-8" />
 		<meta name="description" content="Astro description" />
@@ -20,17 +24,56 @@ const { title } = Astro.props;
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 		<meta name="generator" content={Astro.generator} />
-		<title>{title}</title>
+		<title>{title} | QHSan Rafael</title>
 	</head>
-	<body>
+	<body class="bg-gray-900">
 		<!-- Google Tag Manager (noscript) -->
 		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PRDQ9RMQ"
 		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		<!-- End Google Tag Manager (noscript) -->
 		<Navbar></Navbar>
-		<slot></slot>
+		<main class=" mt-32 pb-16  bg-gray-900 antialiased">
+			<div class="flex justify-between px-4 mx-auto max-w-screen-xl ">
+				<article class="mx-auto w-full max-w-3xl format format-sm sm:format-base lg:format-lg format-blue dark:format-invert">
+					<header class="mb-4 lg:mb-6 not-format text-white">
+						<h1 class="mb-4 text-4xl font-bold tracking-tight leading-tight  lg:mb-6 lg:text-5xl text-white">{title}</h1>
+						<img src={coverImage} class="w-full py-5 rounded-3xl " alt={altCoverImage}>
+					</header>
+					<div class="text-white w-auto leading-relaxed tracking-normal pb-6">
+						<slot/>
+					</div>
+					</article>
+			</div>
+		</main>
+		<section class="bg-white dark:bg-gray-800">
+			<div class="py-16 px-4 mx-auto max-w-screen-xl lg:px-6">
+				<div class="mx-auto flex-col max-w-screen-sm text-center flex items-center">
+					<h2 class="mb-4 text-4xl tracking-tight font-extrabold leading-tight text-gray-900 dark:text-white">¿Qué esperas para organizar tu viaje?</h2>
+					<p class="mb-6 font-light text-center text-gray-500 dark:text-gray-400 md:text-lg">Reserva todas tus actividades en San Rafael con solo un click.</p>
+					<a href='/' class="text-white bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2 dark:bg-primary-600 dark:hover:bg-primary-700 focus:outline-none dark:focus:ring-primary-800">Ver todas las actividades</a>
+				</div>
+			</div>
+		</section>
+		<NearActivities title='Descubre actividades en San Rafael' description='' url='' ctaUrl=''/>
 		<Footer/>
-	<script is:inline src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.0/flowbite.min.js"></script>
 	</body>
 </html>
 
+<style is:global>
+	h1{
+		font-size: 3.75rem;
+	}
+	h2{
+		font-size: 2.25rem;
+		font-weight: 700;
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+		letter-spacing: normal;
+		line-height: normal;
+	}
+	a{
+		color: #2b6eff;
+		cursor: pointer;
+	}
+
+</style>
