@@ -9,7 +9,7 @@ import AllActivities from '../config/activities.json'
             <p class="font-light text-gray-500 lg:mb-8 sm:text-xl dark:text-gray-400">Las mejores excursiones en San Rafael, según los viajeros:</p>
         </div> 
         <div class="grid gap-8 md:grid-cols-3">
-            {AllActivities.map((testimonial) => (
+            {AllActivities.slice(0, 3).map((testimonial) => (
                 <div class="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
                     <div class="py-2 px-5">
                     <div class="inline-flex gap-3 justify-center items-center">
