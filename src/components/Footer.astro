@@ -3,14 +3,14 @@ import { Image } from 'astro:assets';
 import Icon from '../img/faviconn.svg'
 ---
 
-<footer class=" p-4 bg-white md:p-8 lg:p-10 dark:bg-gray-800">
+<footer class="p-4 md:p-8 lg:p-10 bg-gray-800">
     <div class="mx-auto max-w-screen-xl text-center">
         <a href="/" class="flex flex-col md:flex-row justify-center items-center space-x-3 rtl:space-x-reverse">
             <Image src={Icon} class="size-12" alt="Que hacer San Rafael Logo" />
-            <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Que Hacer San Rafael</span>
+            <span class="self-center text-2xl font-semibold whitespace-nowrap text-white">Que Hacer San Rafael</span>
         </a>
-        <p class="my-6 text-gray-500 dark:text-gray-400">Conocer la ciudad nunca fue tan fácil</p>
-        <ul class="flex gap-4 md:gap-10 flex-wrap justify-center items-center mb-6 text-gray-900 dark:text-white">
+        <p class="my-6 text-gray-400">Conocer la ciudad nunca fue tan fácil</p>
+        <ul class="flex gap-4 md:gap-10 flex-wrap justify-center items-center mb-6 text-white">
             <li>
                 <a href="/" class="hover:underline">Inicio</a>
             </li>
@@ -27,6 +27,6 @@ import Icon from '../img/faviconn.svg'
                 <a href="https://wa.me/+542604371637?text=Hola%20Dylan%20te%20hablo%20por%20la%20p%C3%A1gina%20en%20la%20que%20ofreces%20actividades%20en%20San%20Rafael" target="_blank" class="mr-4 hover:underline md:mr-6">Contacto</a>
             </li>
         </ul>
-        <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">2024 -<a href="#" class="hover:underline"> Que Hacer San Rafael</a></span>
+        <span class="text-sm sm:text-center text-gray-400">2024 -<a href="#" class="hover:underline"> Que Hacer San Rafael</a></span>
     </div>
   </footer>
